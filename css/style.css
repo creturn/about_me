@@ -1,0 +1,98 @@
+/*** reset ***/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body{line-height: 1; text-align: left; }
+ol,ul{list-style: none; }
+blockquote,q{quotes: none; }
+blockquote: before,blockquote: after,q: before,q: after{content: ''; content: none; }
+: focus {outline: 0; }
+ins{text-decoration: none; }
+del{text-decoration: line-through; }
+table{border-collapse: collapse; border-spacing: 0; }
+
+/*** 通用 ***/
+body {background: url(../images/textura.png) repeat; text-align: center; font-family: Calibri, times, Arial, sans-serif; color: #FFF; }
+a {text-decoration: none; color: #FFF; }
+
+.wrapper {width: 980px; margin: 0 auto; text-align: left; }
+.container {width: 980px; height: 500px; position: relative; overflow: hidden; }
+.children {height: 500px; position: absolute; overflow: hidden; }
+.title {width: 50px; height: 500px; cursor: pointer; float: left; }
+.title img {width: 50px; }
+.content {width: 700px; height: 470px; padding: 15px; float: left; }
+ 
+#profile {background: #FF9900; top: 0; left: 0px; z-index: 10; }
+#skills {background: #d46a15; top: 0; left: 780px; z-index: 20; }
+#experience {background: #bf4c24; top: 0; left: 830px; z-index: 30; }
+#works {background: #789B2E; top: 0; left: 880px; z-index: 40; }
+#contact {background: #26ADF5; top: 0; left: 930px; z-index: 50; }
+
+.header {width: 980px; height: 90px; }
+.header h1 a {display: block; font-size: 36px; font-weight: bold; padding: 15px 5px 6px 5px; font-family: Georgia; }
+.header h2 {color: #BBB; font-size: 15px; padding-left: 5px; }
+
+.footer {width: 980px; height: 20px; }
+.footer h2 {color: #BBB; font-size: 14px; padding: 25px 0 5px 5px; }
+
+/*** 简介 ***/
+.about-me {width: 100%; }
+.about-me h2 {font-size: 20px; padding: 10px; }
+.about-me p {font-size: 14px; padding: 10px; text-indent: 2em; line-height: 145%; }
+
+.personal-info {width: 100%; }
+.personal-info a {display: block; padding: 1px; border-bottom: 1px dashed #FFF; }
+.personal-info h2 {font-size: 20px; padding: 10px; }
+.personal-info ul {width: 500px; padding: 10px; }
+.personal-info ul li {width: 500px; margin: 7px 0; overflow: hidden; }
+.personal-info ul label {width: 100px; padding: 4px 16px 4px 8px; background: #FFF; color: #888; font-size: 15px; font-weight: 600; -moz-border-radius: 6px; border-radius: 6px; float: left; }
+.personal-info ul span {font-size: 14px; padding: 4px; float: right; }
+
+/*** 技能 ***/
+#skills .content {overflow: hidden; }
+.skill {float: left; margin: 20px; padding: 20px; }
+.skill .skill-title {display: block; padding: 5px; font-size: 18px; font-weight: bold; }
+.skill ul {overflow: hidden; }
+.skill ul li {width: 100px; height: 20px; padding: 4px 8px 2px 8px; margin: 7px 0; background: #FFF; color: #888; font-size: 14px; font-weight: 600; -moz-border-radius: 6px; border-radius: 6px; }
+#skill-html {padding-right: 100px; }
+#skill-css {padding-right: 100px; }
+#skill-jquery {padding-right: 170px; }
+#skill-ajax {padding-right: 170px; }
+#skill-dom {padding-right: 50px; }
+#skill-php {padding-right: 100px; }
+#skill-sql {padding-right: 50px; }
+#skill-c {padding-right: 100px; }
+#skill-ps {padding-right: 50px; }
+#skill-seo {padding-right: 50px; }
+
+/*** 经历 ***/
+.experience h2 {font-size: 20px; padding: 10px; }
+.experience  p {font-size: 14px; padding: 10px; text-indent: 2em; line-height: 145%; }
+.expect h2 {font-size: 20px; padding: 10px; }
+.expect  p {font-size: 14px; padding: 10px; text-indent: 2em; line-height: 145%; }
+
+/*** 作品 ***/
+#works-list-title { padding: 0 0 15px 10px; }
+.works-list {width: 675px; height: 445px; margin: 15px 0 0 20px; overflow-y: scroll; }
+.work {width: 600px; margin-bottom: 30px; overflow: hidden; }
+.work-info {width: 350px; margin-right: 10px; float: left; }
+.work img {display: block; width: 230px; border: 5px solid #E2E1E0; float: left; }
+.work-info h3 {padding: 0 10px 10px; font-size: 20px; }
+.work-info p {padding: 0 10px; font-size: 13px; line-height: 200%; }
+
+#work-ltts {height: 344px; }
+#work-ltts-mobile {height: 402px; }
+#work-doit {height: 419px; }
+#work-huoli {height: 327px; }
+#work-appfans {height: 134px; }
+
+/*** 联系 ***/
+.contact-me {height: 150px; }
+.contact-me h2 {font-size: 20px; padding: 10px; }
+.contact-me span {display: block; padding: 5px 0 10px 10px; }
+.contact-me span a {display: inline-block; padding: 1px; border-bottom: 1px dashed #FFF; }
+.my-sns {height: 200px; }
+.my-sns h2 {font-size: 20px; padding: 10px; }
+.sns-item {width: 350px; height: 40px; margin-bottom: 5px; padding: 5px 0 5px 10px; font-size: 13px; }
+.sns-item img {display: block; width: 35px; height: 35px; margin-top: 3px; float: left; }
+.sns-item span {display: block; height: 20px; width: 300px; margin-left: 10px; float: left; }
+.sns-item span a {display: inline-block; padding: 1px; border-bottom: 1px dashed #FFF; }
+.sns-title {font-size: 16px; font-weight: bold; }
